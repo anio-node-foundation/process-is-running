@@ -1,12 +1,21 @@
 {
-  "name": "@anio-js-core-foundation/node-is-process-running",
+  "name": "@anio-node-foundation/process-is-running",
   "version": "1.0.0",
   "description": "Check whether a process with a particular id is running or not.",
-  "main": "index.mjs",
+  "main": "./dist/package.mjs",
   "author": "Anio Software <info@anio.software>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anio-js-core-foundation/node-is-process-running.git"
-  }
+    "url": "git+https://github.com/anio-node-foundation/process-is-running.git"
+  },
+  "devDependencies": {
+    "@anio-software/npm-package-bundler": "^1.0.0"
+  },
+  "scripts": {
+    "prepare": "./node_modules/.bin/npm-package-bundler ."
+  },
+  "files": [
+    "./dist/package.mjs"
+  ]
 }
