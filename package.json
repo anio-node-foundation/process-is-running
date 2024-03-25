@@ -1,6 +1,6 @@
 {
   "name": "@anio-node-foundation/process-is-running",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Check whether a process with a particular id is running or not.",
   "main": "./build/package.mjs",
   "author": "Anio Software <info@anio.software>",
